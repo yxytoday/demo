@@ -23,7 +23,7 @@ defineClass('YXYViewController' ,['totleCount'], {
     init: function() {
       self = self.super().init()
       self.setTotleCount(2) // add new property
-      return self
+      return selfp
     },
             
     viewDidLoad: function() {
@@ -70,8 +70,8 @@ defineClass('JPTableViewController : UITableViewController <UIAlertViewDelegate>
     var data = [];
     for (var i = 0; i < 20; i ++) {
       data.push("cell No." + i + " from js file.");
-      console.log("js push data testlog");
     }
+    console.log("js push data testlog");
     self.setData(data)
     return data;
   },
