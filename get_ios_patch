@@ -1,5 +1,5 @@
 {
-  "patch_enabled": false,
+  "patch_enabled": true,
   "patch": {
     "version": 1,
     "download_url": "https://img3.doubanio.com/dae/fm/ios_patchs/1.js",
